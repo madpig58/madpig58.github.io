@@ -14,7 +14,9 @@ Delete these instructions when you are done, or leave them. It does not matter.
 What you wanted at the start, and what is actually live now.
 Name one thing you dropped or added along the way, and why.
 
-*Your answer here.*
+I set out to build a personal portfolio website that I could use outside of this class, not just a site made for an assignment. I wanted it to introduce who I am, show some of my projects, and give people a quick way to see my skills and contact information.
+
+The live version became more focused on game development and graphics than my first idea. One change I made was replacing Circuit Detective with Away from Kitty because Away from Kitty represents more of my own creative work and shows my experience with game planning, UI, and visual art.
 
 ---
 
@@ -28,7 +30,10 @@ Say which you picked, what the alternative was, and what you gave up by not taki
 
 "There was no alternative" is not an answer. Find the fork.
 
-*Your answer here.*
+One choice I had to make was whether to build a single scrolling page or separate pages for About, Projects, Skills, and Contact.
+
+I chose the single-page layout because I wanted visitors to be able to see everything quickly without opening several pages. The alternative would have made each section more independent and would have given me more room for detailed project pages, but it also would have made the site more complicated to navigate and maintain.
+
 
 ---
 
@@ -42,7 +47,10 @@ If it genuinely never happened, say so plainly, and then say what you would have
 check in order to notice. Being honest here costs you far less than a story you cannot
 defend when you record your video.
 
-*Your answer here.*
+Claude originally used Circuit Detective as one of the main projects and also included Phaser in the skills section. I decided not to keep that choice because I wanted the portfolio to represent the projects and tools that I most wanted people to associate with me.
+
+I replaced Circuit Detective with Away from Kitty, a group RPG made in GameMaker where I worked on the game planning and created the UI and visual art. I also removed Phaser and added GameMaker to the skills section. This made the portfolio more accurate to the work I wanted to present.
+
 
 ---
 
@@ -55,7 +63,13 @@ A check that could not have failed is not a check.
 
 Link to your `verification/` folder.
 
-*Your answer here.*
+
+I first tested the site locally at `http://localhost:8000` and checked that the navigation, sections, layout, and links displayed correctly. I also published the site through GitHub Pages and opened the live URL to confirm that the deployed version loaded outside of the local development environment.
+
+These checks could have failed if the file paths were incorrect, if GitHub Pages was configured incorrectly, if files were not pushed to the repository, or if the live site loaded differently from the local version.
+
+Verification:
+[verification/](./verification/)
 
 ---
 
@@ -66,4 +80,6 @@ fully understand.
 
 What would you do next, and how would you find out?
 
-*Your answer here.*
+The project descriptions are still fairly short, and the portfolio does not yet include screenshots, playable builds, or detailed pages for each project.
+
+My next step would be to add images and links for projects such as Away from Kitty and expand the project section as I complete more work. I would test those additions locally first and then check the deployed GitHub Pages version to make sure the images and links work correctly.

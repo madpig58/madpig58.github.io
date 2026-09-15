@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Oh</title>
+  <meta name="description" content="Alex Oh — Computer Science student focused on game development, software engineering, and interactive systems.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav-brand" href="#top">alex_oh</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="top" class="hero">
+      <p class="eyebrow">// hello world</p>
+      <h1>Alex Oh</h1>
+      <p class="hero-tagline">
+        Computer Science student focused on game development, software engineering,
+        and interactive systems.<span class="cursor" aria-hidden="true"></span>
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn" href="#contact">Get in Touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2><span class="tag">01</span> About</h2>
+      <p class="about-text">
+        I am a Computer Science student at Colorado School of Mines with an interest in
+        game development, software engineering, and building interactive systems. I enjoy
+        working on projects that combine programming with design and experimentation.
+        I am especially interested in game engines, graphics, modding, and educational
+        software.
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2><span class="tag">02</span> Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Away from Kitty</h3>
+          <p>
+            A group RPG project built in GameMaker. I handled the game planning, UI
+            design, and all of the visual art. The story follows a cat who wakes up
+            and goes on an adventure whenever its owner, the player, goes AFK.
+          </p>
+        </article>
+        <article class="card">
+          <h3>3D Game Engine Project</h3>
+          <p>
+            A C++ graphics project exploring real-time rendering, OpenGL, camera
+            systems, transformations, and foundational game-engine architecture.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Aether &amp; Iron</h3>
+          <p>
+            A large Minecraft modpack and worldbuilding project focused on custom
+            systems, progression, atmosphere, and game design.
+          </p>
+        </article>
+      </div>
+      <p class="more-projects">
+        More on <a href="https://github.com/madpig58" target="_blank" rel="noopener">GitHub &rarr;</a>
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2><span class="tag">03</span> Skills</h2>
+      <ul class="skill-list">
+        <li>C++</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Unity</li>
+        <li>Unreal Engine</li>
+        <li>GameMaker</li>
+        <li>Minecraft Modding</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2><span class="tag">04</span> Contact</h2>
+      <p class="about-text">Best way to reach me or see more of my work:</p>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/madpig58" target="_blank" rel="noopener">github.com/madpig58</a>
+        </li>
+        <li>
+          <span class="contact-label">Email</span>
+          <a href="mailto:madpig58@gmail.com">madpig58@gmail.com</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Alex Oh</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
