@@ -1,3 +1,0 @@
-The site is publicly available at https://madpig58.github.io.
-I verified that the page loads correctly in a browser and through a direct fetch request.
-The deployed site matches the version I tested locally.
