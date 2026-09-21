@@ -303,6 +303,11 @@ main {
   width: 5.5rem;
 }
 
+.email-obfuscated {
+  color: var(--accent);
+  user-select: all;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
